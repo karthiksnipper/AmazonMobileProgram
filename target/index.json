@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-21T08:28:00.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4564458300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mock.stepdefinition.Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validating the product added to the cart, filter functions with rating",
+        "description": "",
+        "id": "validating-the-price-filter-function-of-the-application;validating-the-product-added-to-the-cart--filter-functions-with-rating",
+        "after": [
+          {
+            "result": {
+              "duration": 221407100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mock.stepdefinition.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5370685300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Search amazon on searchbar",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Search_amazon_on_searchbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216600100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Print list of search result",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Print_list_of_search_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4396398200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Clicks on amazon application",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Clicks_on_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3139235000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Enter valid credentials",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4999808300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects Electronic button through all button in searchbar",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_selects_Electronic_button_through_all_button_in_searchbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2107722300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Enters dell computers",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Enters_dell_computers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2080322400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Applies filter range rs30000 to rs50000",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Applies_filter_range_rs30000_to_rs50000()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Filter is not working properly\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat mock.pages.GooglePage.validateTheFilterResult(GooglePage.java:241)\r\n\tat mock.stepdefinition.AmazonStepDefintions.user_Validates_the_result_first_two_pages_in_the_range_of_rs30000_to_rs50000(AmazonStepDefintions.java:53)\r\n\tat ✽.user Validates the result first two pages in the range of rs30000 to rs50000(file:///D:/softwares/Java%20kits/Modified/m-workspace/MockAmazon/src/test/resources/Features/Amazon.feature:12)\r\n",
+              "duration": 11920713800,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user Validates the result first two pages in the range of rs30000 to rs50000",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Validates_the_result_first_two_pages_in_the_range_of_rs30000_to_rs50000()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user Prints rating5 rating from result on two pages",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Prints_rating5_rating_from_result_on_two_pages()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user Add the the selected rating5 product in wish list",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_Add_the_the_selected_rating5_product_in_wish_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user validating the product added in the wish list",
+            "match": {
+              "location": "mock.stepdefinition.AmazonStepDefintions.user_validating_the_product_added_in_the_wish_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC-1"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the price filter function of the application",
+    "description": "",
+    "id": "validating-the-price-filter-function-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Amazon.feature",
+    "tags": []
+  }
+]
