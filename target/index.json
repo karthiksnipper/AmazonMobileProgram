@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-08-21T08:28:00.969Z",
+        "start_timestamp": "2023-08-24T20:24:53.990Z",
         "before": [
           {
             "result": {
-              "duration": 4564458300,
+              "duration": 6565479300,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 221407100,
+              "duration": 344078300,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997100,
+              "duration": 997000,
               "status": "passed"
             },
             "line": 4,
@@ -47,8 +47,9 @@
           },
           {
             "result": {
-              "duration": 5370685300,
-              "status": "passed"
+              "error_message": "java.lang.NoSuchMethodError: org.apache.logging.log4j.LogBuilder.log(Ljava/lang/String;Ljava/lang/Object;)V\r\n\tat org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)\r\n\tat org.apache.poi.openxml4j.opc.PackageRelationshipCollection.\u003cinit\u003e(PackageRelationshipCollection.java:160)\r\n\tat org.apache.poi.openxml4j.opc.PackageRelationshipCollection.\u003cinit\u003e(PackageRelationshipCollection.java:130)\r\n\tat org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)\r\n\tat org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:751)\r\n\tat org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:322)\r\n\tat org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)\r\n\tat org.apache.poi.xssf.usermodel.XSSFWorkbook.\u003cinit\u003e(XSSFWorkbook.java:290)\r\n\tat org.apache.poi.xssf.usermodel.XSSFWorkbook.\u003cinit\u003e(XSSFWorkbook.java:286)\r\n\tat mock.baseclass.BaseClass.readFromExcell(BaseClass.java:184)\r\n\tat mock.pages.GooglePage.searchTheAmazon(GooglePage.java:163)\r\n\tat mock.stepdefinition.AmazonStepDefintions.user_Search_amazon_on_searchbar(AmazonStepDefintions.java:22)\r\n\tat ✽.user Search amazon on searchbar(file:///D:/softwares/Java%20kits/Modified/m-workspace/MockAmazon/src/test/resources/Features/Amazon.feature:5)\r\n",
+              "duration": 164559400,
+              "status": "failed"
             },
             "line": 5,
             "name": "user Search amazon on searchbar",
@@ -59,8 +60,7 @@
           },
           {
             "result": {
-              "duration": 216600100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user Print list of search result",
@@ -71,8 +71,7 @@
           },
           {
             "result": {
-              "duration": 4396398200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user Clicks on amazon application",
@@ -83,8 +82,7 @@
           },
           {
             "result": {
-              "duration": 3139235000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "user Enter valid credentials",
@@ -95,8 +93,7 @@
           },
           {
             "result": {
-              "duration": 4999808300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
             "name": "user selects Electronic button through all button in searchbar",
@@ -107,8 +104,7 @@
           },
           {
             "result": {
-              "duration": 2107722300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user Enters dell computers",
@@ -119,8 +115,7 @@
           },
           {
             "result": {
-              "duration": 2080322400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "user Applies filter range rs30000 to rs50000",
@@ -131,9 +126,7 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: Filter is not working properly\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat mock.pages.GooglePage.validateTheFilterResult(GooglePage.java:241)\r\n\tat mock.stepdefinition.AmazonStepDefintions.user_Validates_the_result_first_two_pages_in_the_range_of_rs30000_to_rs50000(AmazonStepDefintions.java:53)\r\n\tat ✽.user Validates the result first two pages in the range of rs30000 to rs50000(file:///D:/softwares/Java%20kits/Modified/m-workspace/MockAmazon/src/test/resources/Features/Amazon.feature:12)\r\n",
-              "duration": 11920713800,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user Validates the result first two pages in the range of rs30000 to rs50000",

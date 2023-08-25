@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Flipkartmock - Add to Cart and Remove</td>
-      <td>21 Aug 2023, 13:58</td>
+      <td>25 Aug 2023, 01:55</td>
     </tr>
   </tbody>
 </table>
@@ -127,9 +127,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Validating the price filter function of the application</td>
-          <td      class="passed"    >8</td>
+          <td      class="passed"    >1</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >3</td>
+          <td     class="skipped"   >10</td>
           <td >0</td>
           <td >0</td>
           <td class="total">12</td>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="34232482500">34.232</td>
+          <td class="duration" data-value="165556400">0.165</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -191,7 +191,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">34.232</span>
+  <span class="lead-duration duration">0.165</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -229,7 +229,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">mock.stepdefinition.Hooks.beforeScenario()</span>
 
-  <span class="lead-duration duration">4.564</span>
+  <span class="lead-duration duration">6.565</span>
 
           </div>
 
@@ -289,200 +289,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When passed">
+<div class="brief step-name-When failed">
   <span class="keyword indention">When</span>
   <span class="name">user Search amazon on searchbar</span>
 
-  <span class="lead-duration duration">5.370</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user Print list of search result</span>
-
-  <span class="lead-duration duration">0.216</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user Clicks on amazon application</span>
-
-  <span class="lead-duration duration">4.396</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user Enter valid credentials</span>
-
-  <span class="lead-duration duration">3.139</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user selects Electronic button through all button in searchbar</span>
-
-  <span class="lead-duration duration">4.999</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user Enters dell computers</span>
-
-  <span class="lead-duration duration">2.107</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user Applies filter range rs30000 to rs50000</span>
-
-  <span class="lead-duration duration">2.080</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then failed">
-  <span class="keyword indention">Then</span>
-  <span class="name">user Validates the result first two pages in the range of rs30000 to rs50000</span>
-
-  <span class="lead-duration duration">11.920</span>
+  <span class="lead-duration duration">0.164</span>
 
 </div>
 
@@ -494,19 +305,216 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>java.lang.AssertionError:</a>
+          <a>java.lang.NoSuchMethodError:</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError: Filter is not working properly
-	at org.junit.Assert.fail(Assert.java:89)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at mock.pages.GooglePage.validateTheFilterResult(GooglePage.java:241)
-	at mock.stepdefinition.AmazonStepDefintions.user_Validates_the_result_first_two_pages_in_the_range_of_rs30000_to_rs50000(AmazonStepDefintions.java:53)
-	at &#10045;.user Validates the result first two pages in the range of rs30000 to rs50000(file:///D:/softwares/Java%20kits/Modified/m-workspace/MockAmazon/src/test/resources/Features/Amazon.feature:12)
+        <pre>java.lang.NoSuchMethodError: org.apache.logging.log4j.LogBuilder.log(Ljava/lang/String;Ljava/lang/Object;)V
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:309)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:160)
+	at org.apache.poi.openxml4j.opc.PackageRelationshipCollection.&lt;init&gt;(PackageRelationshipCollection.java:130)
+	at org.apache.poi.openxml4j.opc.PackagePart.loadRelationships(PackagePart.java:565)
+	at org.apache.poi.openxml4j.opc.OPCPackage.getParts(OPCPackage.java:751)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:322)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at mock.baseclass.BaseClass.readFromExcell(BaseClass.java:184)
+	at mock.pages.GooglePage.searchTheAmazon(GooglePage.java:163)
+	at mock.stepdefinition.AmazonStepDefintions.user_Search_amazon_on_searchbar(AmazonStepDefintions.java:22)
+	at &#10045;.user Search amazon on searchbar(file:///D:/softwares/Java%20kits/Modified/m-workspace/MockAmazon/src/test/resources/Features/Amazon.feature:5)
 </pre>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user Print list of search result</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">user Clicks on amazon application</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">user Enter valid credentials</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">user selects Electronic button through all button in searchbar</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">user Enters dell computers</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">user Applies filter range rs30000 to rs50000</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">user Validates the result first two pages in the range of rs30000 to rs50000</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
 
 
 
@@ -625,7 +633,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">mock.stepdefinition.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.221</span>
+  <span class="lead-duration duration">0.344</span>
 
           </div>
 

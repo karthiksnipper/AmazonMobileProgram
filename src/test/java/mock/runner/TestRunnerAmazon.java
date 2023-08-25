@@ -25,7 +25,7 @@ public class TestRunnerAmazon extends ReportCucumber {
 	@AfterClass
 	public static void afterClass() throws FileNotFoundException, IOException {
 		System.out.println("AfterClass");
-		ReportCucumber.generateJVMReport(getProjectPath()+getPropertyFileValue("jsonPath"));
+//		ReportCucumber.generateJVMReport(getProjectPath()+getPropertyFileValue("jsonPath"));
 	}
 
 }
